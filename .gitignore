@@ -1,0 +1,20 @@
+# Credentials
+config.h
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+# Local environments and build output
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pio/
+build/
+# Private measurements and captures
+data/
+*.csv
+*.pcap
+*.pcapng
+*.log
+.DS_Store
