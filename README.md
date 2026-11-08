@@ -8,7 +8,6 @@ It answers practical questions: Does latency vary by time of day? Do remote late
 
 This is an educational measurement prototype developed by **Gaël Boënnec**, initially for the MET project at INSA Lyon. It is useful for exploring connectivity from one location over time. It does **not** measure browser rendering, JavaScript execution, application correctness, download throughput, or the experience of every user of a website.
 
-> **Prototype security limitation:** the firmware retains the original `WiFiClientSecure.setInsecure()` calls. HTTPS traffic is encrypted, but server certificates are not verified. This affects measurement requests, uploads and the optional portal login. Do not treat this as a production-secure monitoring agent or deploy valuable portal credentials on an untrusted network. Certificate validation is future work. Personal passwords, tokens and deployment URLs are not included in this repository.
 
 ## What is included
 
